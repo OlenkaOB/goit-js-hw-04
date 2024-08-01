@@ -1,6 +1,8 @@
 const profile = {
   username: 'Jacob',
   playTime: 300,
+
+  //  return `${username} has ${playTime} active hours!`;
 };
 
 console.log(profile.getInfo()); // "Jacob has 300 active hours!"
